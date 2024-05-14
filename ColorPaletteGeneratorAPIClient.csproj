@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.ColorPaletteGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/colorpalette</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Color Palette is a simple tool for generating color palettes. It returns a list of colors.</Description>
+    <RepositoryUrl>https://github.com/apiverve/colorpalette-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>color palette; color palette generator; color palette api; color palette tool; color palette software; color palette service; color palette library; color palette sdk; color palette code; color palette script; color palette program; color palette application; color palette app; color palette utility; color palette helper; color palette helper tool; color palette helper software; color palette helper service; color palette helper library; color palette helper sdk; color palette helper code; color palette helper script; color palette helper program; color palette helper application; color palette helper app; color palette helper tool; color palette helper utility; color palette helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
