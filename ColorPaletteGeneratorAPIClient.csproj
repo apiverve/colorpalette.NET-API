@@ -14,7 +14,7 @@
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageProjectUrl>https://apiverve.com/?utm_source=nuget</PackageProjectUrl>
     <SignAssembly>False</SignAssembly>
-    <Description>Color Palette is a simple tool for generating color palettes. It returns a list of colors.</Description>
+    <Description>Color Palette is a simple tool for generating color palettes. It returns a list of colors based on a given color input.</Description>
     <RepositoryUrl>https://github.com/apiverve/colorpalette.NET-API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>color palette; color palette generator; color palette api; color palette tool; color palette software</PackageTags>
