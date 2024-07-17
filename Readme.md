@@ -1,7 +1,7 @@
 Color Palette Generator API
 ============
 
-Color Palette is a simple tool for generating color palettes. It returns a list of colors.
+Color Palette is a simple tool for generating color palettes. It returns a list of colors based on a given color input.
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
@@ -97,6 +97,7 @@ if(response.error != null) {
   "data": {
     "source": "#FF5733",
     "hue": 11,
+    "variation": "soft",
     "colorPalette": [
       {
         "hex": "#cc988f",
