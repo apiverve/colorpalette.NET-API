@@ -22,6 +22,9 @@ public class data
     [JsonProperty("hue")]
     public int hue { get; set; }
 
+    [JsonProperty("variation")]
+    public string variation { get; set; }
+
     [JsonProperty("colorPalette")]
     public colorPalette[] colorPalette { get; set; }
 
