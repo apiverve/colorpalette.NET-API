@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new colorpaletteQueryOptions {
+var queryOptions = new ColorPaletteGeneratorQueryOptions {
   color = "FF5733",
   variation = "soft"
 };
@@ -162,7 +162,8 @@ if(response.error != null) {
       "cfdee6",
       "60a0bf"
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
